@@ -59,10 +59,12 @@ function changeCompleteness(todoID){
 // Generate todo DOM
 function generateTodoDOM(todo){
     const todoBox = document.createElement('div')
+    todoBox.classList.add('d-flex','align-items-center', 'my-4', 'border', 'border-1', 'rounded', 'rounded-3','p-2', 'px-3', 'bg-light')
 
     // Creates checkbox that toggles the completeness of the todo
     const checkbox = document.createElement('input')
     checkbox.setAttribute('type','checkbox')
+    checkbox.classList.add('form-check-input')
     todoBox.appendChild(checkbox)
 
     checkbox.checked = todo.Completed;
@@ -76,11 +78,14 @@ function generateTodoDOM(todo){
     // Creates the todo text
     let item = document.createElement('span')
     item.textContent = todo.Task
+    item.classList.add('fs-3', 'mx-3', 'flex-fill')
     todoBox.appendChild(item)
 
     // Creates the delete button for the todo
     const deleteButton = document.createElement('button')
-    deleteButton.textContent = 'x'
+    deleteButton.classList.add('btn', 'btn-danger')
+
+    deleteButton.textContent = 'Delete'
     todoBox.appendChild(deleteButton)
     deleteButton.addEventListener('click', function (){
         removeTodo(todo.id)
