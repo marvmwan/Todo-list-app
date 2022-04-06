@@ -4,8 +4,11 @@ Todo app with all the functionality built. You can add todos, delete todos, mark
 
 ## See Images below
 
-<img width="362" alt="Screen Shot 2022-03-11 at 4 30 35 PM" src="https://user-images.githubusercontent.com/47411070/157973386-8f4f3401-3974-4829-8272-df280c065584.png">
+![Screen Shot 2022-04-06 at 2 19 24 AM](https://user-images.githubusercontent.com/47411070/161908400-647fbef0-662d-401b-9709-009111b9e9b5.png)
 
-<img width="356" alt="Screen Shot 2022-03-11 at 4 30 56 PM" src="https://user-images.githubusercontent.com/47411070/157973408-9bc9614b-c8ee-4466-99b3-8f4b2b78e87b.png">
+![Screen Shot 2022-04-06 at 2 14 01 AM](https://user-images.githubusercontent.com/47411070/161908253-301b64d7-e614-485b-945a-b2ddd14f2de4.png)
+
+![Screen Shot 2022-04-06 at 2 14 12 AM](https://user-images.githubusercontent.com/47411070/161908271-e03569dd-4225-45d9-b4e3-bf1f5c4bcefe.png)
+
 
 
